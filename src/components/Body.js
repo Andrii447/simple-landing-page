@@ -5,6 +5,14 @@ const Body = () => {
     <main style={styles.body}>
 
       <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>John Doe</h2>
+          <p style={styles.position}>Software engineer</p>
+        </div>
+        </div>
+
+      <div style={styles.card}>
         <img src={"/vasylchenko_photo.jpg"} alt="Andrii Vasylchenko" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Andrii Vasylchenko</h2>
@@ -35,14 +43,6 @@ const Body = () => {
           <p style={styles.position}>Tester</p>
         </div>
       </div>
-
-      <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
-        </div>
-        </div>
       
     </main>
   );
