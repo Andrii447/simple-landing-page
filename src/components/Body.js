@@ -36,7 +36,7 @@ const Body = () => {
         </div>
       </div>
 
-      <h2 style={styles.name}>John Doe</h2>
+      <h2 style={{ color: "#ffffffff"}}>John Doe</h2>
       
     </main>
   );
