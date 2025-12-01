@@ -29,7 +29,7 @@ const Body = () => {
       </div>
 
       <div style={styles.card}>
-        <img src={"/photo_heiko.jpg"} alt="Mykola Heiko" style={styles.photo} />
+        <img src={"/photo_heiko.jpeg"} alt="Mykola Heiko" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Mykola Heiko</h2>
           <p style={styles.position}>Tester</p>
