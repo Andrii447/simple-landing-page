@@ -35,6 +35,9 @@ const Body = () => {
           <p style={styles.position}>Tester</p>
         </div>
       </div>
+
+      <h2 style={styles.name}>John Doe</h2>
+      
     </main>
   );
 };
